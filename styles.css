@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.liga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(240, 229, 229);
+    margin-top: 5px;
+    background-image: url("dibujos/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+
+}
+
+clientes {
+    color: black;
+}
+
+.restaurantes h1 {
+    font-size: 50px;
+}
+
+.restaurantes h2 {
+    font-size: 30px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(121, 9, 233);
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
